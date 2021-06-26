@@ -360,18 +360,14 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
-/*.cont {
-  display: block;
-  justify-content: center;
-  align-items: center;
-}*/
+
 .netw-team {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.netw-team__link/*team-link*/ {
+.netw-team__link {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -385,17 +381,18 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.netw-team__link/*team-link*/:hover,
-.netw-team__link/*team-link*/:focus {
+.netw-team__link:hover,
+.netw-team__link:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
-.netw-team__item/*network-item*/:not(:last-child) {
+.netw-team__item:not(:last-child) {
   margin-right: 10px;
 }
-.netw-team__icon/*link-icon*/ {
+.netw-team__icon {
   fill: currentColor;
 }
+/*постійні клієнти*/
 .customers {
   width: 1200px;
   padding-left: 15px;

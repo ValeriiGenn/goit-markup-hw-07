@@ -246,25 +246,6 @@ img {
   padding: 25px 100px;
   border-radius: 4px;
 }
-
-.section-title-team,
-.section-title-directions {
-  color: var(--black-color);
-
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.section .title {
-  color: var(--black-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
 .benefits-card__title {
   margin-bottom: 10px;
   background-color: var(--white-color);
@@ -274,8 +255,7 @@ img {
   letter-spacing: 0.03em;
   text-align: left;
 }
-.benefits-card__text,
-.section .text {
+.benefits-card__text {
   color: var(--gray-color);
   font-size: 14px;
   line-height: 1.7;
@@ -284,6 +264,14 @@ img {
 .directions {
   padding-top: 47px;
   padding-bottom: 94px;
+}
+.directions__title {
+  color: var(--black-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .direction-card {
   display: flex;
@@ -296,11 +284,6 @@ img {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
 }
-.section-title-team,
-.section-title-directions {
-  margin-bottom: 0 50px 0;
-}
-
 .direction-card__title {
   padding-top: 27px;
   padding-bottom: 27px;
@@ -337,7 +320,12 @@ img {
   background-color: var(--white-color);
   box-shadow: 10px 10px 10px 10px var(--gray-color);
 }
-.section-title .team {
+.team__title {
+  color: var(--black-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
   margin-bottom: 50px;
 }
 .container-team-list-item {
@@ -402,7 +390,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-title-customers {
+.customers__title {
   text-align: center;
   margin: 0 0 50px 0;
   font-size: 36px;

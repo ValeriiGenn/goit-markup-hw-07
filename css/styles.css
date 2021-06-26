@@ -54,15 +54,14 @@ img {
   display: block;
 }
 .page-header {
-  /*padding-bottom: 25px;*/
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
   margin-left: auto;
 }
 .head-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 .page-header .auth-nav {
   margin-left: auto;

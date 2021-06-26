@@ -572,33 +572,42 @@ img {
 }
 
 .address-list {
+  margin-top: 9px;
+}
+.address {
   margin-top: 20px;
   color: var(--white-color);
   text-decoration: none;
   font-style: normal;
 }
-.address {
-}
+
 .logo__second {
   color: var(--white-color);
   text-decoration: none;
   font-style: normal;
 }
-.third {
+.address__text {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.address-list__third {
   color: var(--contact-color);
   text-decoration: none;
   font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.third:hover,
-.third:focus {
+.address-list__third:hover,
+.address-list__third:focus {
   color: var(--accent-color);
 }
 
-.address.list {
+/*.address.list {
   margin-top: 9px;
-}
-.address-list-tel {
+}*/
+.address-list__tel {
   margin-top: 9px;
 }
 .link-address {

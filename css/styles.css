@@ -155,9 +155,6 @@ img {
   fill: currentColor;
   margin-right: 10px;
 }
-/*.auth-nav__text {
-  /*margin-left: 10px;
-}*/
 
 /*hero*/
 .hero {
@@ -239,7 +236,7 @@ img {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.icon-benefits {
+.benefits__icon {
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
@@ -294,7 +291,7 @@ img {
   color: var(--bgmodal-color);
   background-color: var(--bgthumb-color);
 }
-.card-thumb .content {
+.direction-card__content {
   position: absolute;
   bottom: 0;
   width: 100%;

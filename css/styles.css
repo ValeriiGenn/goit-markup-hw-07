@@ -603,28 +603,21 @@ img {
 .address-list__third:focus {
   color: var(--accent-color);
 }
-
-/*.address.list {
-  margin-top: 9px;
-}*/
 .address-list__tel {
   margin-top: 9px;
 }
-.link-address {
-  margin: 0;
-}
 /*іконки соцмереж*/
-.network {
+.footer-network {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.social-networks {
+.footer-social-networks {
   margin: 0;
   width: 206px;
   margin-left: 70px;
 }
-.join {
+.footer-social-networks__join {
   margin-bottom: 20px;
   align-content: center;
   font-family: Roboto;
@@ -634,12 +627,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.network-item {
+.footer-network__item {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.network-link {
+.footer-network__link {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -653,12 +646,12 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-icon {
+.footer-network__icon {
   fill: currentColor;
 }
 
-.network-link:hover,
-.network-link:focus {
+.footer-network__link:hover,
+.footer-network__link:focus {
   background-color: var(--accent-color);
 }
 /*модальне вікно*/

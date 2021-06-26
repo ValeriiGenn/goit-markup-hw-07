@@ -79,7 +79,7 @@ img {
 .logo:focus {
   color: var(--accent-color);
 }
-.logo__text .first {
+.logo__first {
   color: var(--accent-color);
   font-style: normal;
 } /*site nav*/
@@ -555,7 +555,7 @@ img {
   line-height: 1.556;
 }
 /*footer*/
-.footer {
+.page-footer {
   background-color: var(--footer-color);
   color: var(--white-color);
   padding-top: 60px;
@@ -564,7 +564,7 @@ img {
   margin: 0 auto;
   align-content: center;
 }
-.container-footer {
+.page-footer__container {
   display: flex;
   align-items: baseline;
   padding-left: 15px;
@@ -573,13 +573,13 @@ img {
 
 .address-list {
   margin-top: 20px;
-}
-.address {
   color: var(--white-color);
   text-decoration: none;
   font-style: normal;
 }
-.second {
+.address {
+}
+.logo__second {
   color: var(--white-color);
   text-decoration: none;
   font-style: normal;

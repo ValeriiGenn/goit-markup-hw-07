@@ -285,24 +285,23 @@ img {
   padding-top: 47px;
   padding-bottom: 94px;
 }
-.directions .list {
+.direction-card {
   display: flex;
   flex-wrap: wrap;
 }
-.directions-list-item:not(:last-child) {
+.direction-card__item:not(:last-child) {
   margin-right: 30px;
 }
-.directions-list-item {
+.direction-card__item {
   flex-basis: calc((100% - 60px) / 3);
+  position: relative;
 }
 .section-title-team,
 .section-title-directions {
   margin-bottom: 0 50px 0;
 }
-.card-thumb {
-  position: relative;
-}
-.card-thumb .title {
+
+.direction-card__title {
   padding-top: 27px;
   padding-bottom: 27px;
   font-style: normal;

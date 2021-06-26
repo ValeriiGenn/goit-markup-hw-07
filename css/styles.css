@@ -393,6 +393,9 @@ img {
 .netw-team__item/*network-item*/:not(:last-child) {
   margin-right: 10px;
 }
+.netw-team__icon/*link-icon*/ {
+  fill: currentColor;
+}
 .customers {
   width: 1200px;
   padding-left: 15px;

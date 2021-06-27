@@ -479,7 +479,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.portfolio .list {
+.portfolio-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -533,8 +533,8 @@ img {
 .card-thumb:hover {
   opacity: 1;
 }
-.portlist .card:hover .content-hidden,
-.portlist .card:focus .content-hidden {
+.portfolio-list .card:hover .content-hidden,
+.portfolio-list .card:focus .content-hidden {
   transform: translateY(0);
 }
 .content-hidden {
@@ -572,6 +572,7 @@ img {
 }
 
 .address-list {
+  list-style: none;
   margin-top: 9px;
 }
 .address {

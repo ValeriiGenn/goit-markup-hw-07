@@ -524,17 +524,17 @@ img {
   letter-spacing: 0.03em;
 }
 /*оверлей*/
-.card-thumb {
+.portfolio-list__item-card-thumb {
   display: flex;
   position: relative;
   min-width: 100%;
   overflow: hidden;
 }
-.card-thumb:hover {
+.portfolio-list__item-card-thumb:hover {
   opacity: 1;
 }
-.portfolio-list .card:hover .content-hidden,
-.portfolio-list .card:focus .content-hidden {
+.portfolio-list__item-card:hover .content-hidden,
+.portfolio-list__item-card:focus .content-hidden {
   transform: translateY(0);
 }
 .content-hidden {

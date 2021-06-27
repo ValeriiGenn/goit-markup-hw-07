@@ -534,11 +534,11 @@ img {
 .portfolio-list__item-card-thumb:hover {
   opacity: 1;
 }
-.portfolio-list__item-card:hover .content-hidden,
-.portfolio-list__item-card:focus .content-hidden {
+.portfolio-list__item-card:hover .portfolio-list__item-content-hidden,
+.portfolio-list__item-card:focus .portfolio-list__item-content-hidden {
   transform: translateY(0);
 }
-.content-hidden {
+.portfolio-list__item-content-hidden {
   position: absolute;
   width: 100%;
   height: 100%;

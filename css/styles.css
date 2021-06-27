@@ -494,6 +494,7 @@ img {
   border: 1px solid var(--border-color);
 }
 .portfolio-list__item {
+  list-style: none;
   flex-basis: calc((100% -60px) / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
@@ -547,7 +548,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.text-hidden {
+.portfolio-list__item-text-hidden {
   color: var(--white-color);
   font-style: normal;
   font-weight: normal;

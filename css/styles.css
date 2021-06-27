@@ -720,19 +720,20 @@ textarea {
 }
 .form {
   display: flex;
+  flex-direction: column;
   width: 448px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
 }
-.form-field {
+.form__field {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
-.form-field input {
+.form__input {
   outline: none;
   width: 100%;
   margin: 0;
@@ -742,16 +743,14 @@ textarea {
   border-radius: 4px;
   max-height: 40px;
 }
-.form-field label {
-  position: absolute;
-  top: 50%;
+.form__label {
+  top: 30%;
   left: 30px;
-  margin-bottom: 5px;
-  transform: translateY(-50%);
+  margin-bottom: 2px;
+  transform: translateY(-10%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.leave {
-  font-family: Roboto;
+.form__leave {
   font-size: 20px;
 
   font-weight: 700;
@@ -760,7 +759,7 @@ textarea {
   text-align: center;
   margin-bottom: 12px;
 }
-.form-icon {
+.form__icon {
   position: absolute;
   top: 65%;
   left: 12px;
@@ -769,17 +768,17 @@ textarea {
   transform: translateY(-50%);
   display: inline-block;
 }
-.form-input:focus ~ .form-icon {
+.form__input:focus ~ .form__icon {
   fill: var(--accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*textarea.form-comment,*/
-.form-input:hover,
-.form-input:focus {
+.form__input:hover,
+.form__input:focus {
   border: 1px solid var(--accent-color);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-comment {
+.form__comment {
   display: inline-block;
   outline: none;
   margin: 0;
@@ -789,17 +788,17 @@ textarea {
   border: 1px solid var(--brdrinput-color);
   border-radius: 4px;
 }
-.form-comment:hover,
-.form-comment:focus {
+.form__comment:hover,
+.form__comment:focus {
   border: 1px solid var(--accent-color);
 }
-.checkbox {
+.form__checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   position: absolute;
 }
-.form-check {
+.form__check {
   display: flex;
   align-items: center;
   outline: none;
@@ -808,11 +807,11 @@ textarea {
   letter-spacing: 0.03em;
   color: var(--gray-color);
 }
-.condition {
+.form__condition {
   margin-left: 7px;
   color: var(--accent-color);
 }
-.icon-check {
+.form__icon-check {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -820,7 +819,7 @@ textarea {
   border-radius: 2px;
   margin-right: 7px;
 }
-.checkbox:checked + .icon-check {
+.form__checkbox:checked + .form__icon-check {
   border-color: var(--accent-color);
   background-image: url(../images/checkopt.svg);
   background-size: contain;
@@ -828,11 +827,11 @@ textarea {
   cursor: pointer;
   transition: border-color, background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox:hover + .icon-check,
-.checkbox:focus + .icon-check {
+.form__checkbox:hover + .form__icon-check,
+.form__checkbox:focus + .form__icon-check {
   border-color: var(--accent-color);
 }
-.button-send {
+.form__button-send {
   position: relative;
   left: 130px;
   margin: 0;
@@ -849,8 +848,8 @@ textarea {
   line-height: 1.87;
   border-radius: 4px;
 }
-.button-send:hover,
-.button-send:focus {
+.form__button-send:hover,
+.form__button-send:focus {
   box-shadow: 4px 4px 4px 4px rgba(128, 26, 26, 0.25);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

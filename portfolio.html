@@ -28,7 +28,7 @@
       <div class="container head-container">
         <a class="logo link" href="./index.html"
           ><p class="logo__text">
-            <span class="logo__text first">Web</span>Studio
+            <span class="logo__first">Web</span>Studio
           </p></a
         >
         <nav class="navigation">
@@ -74,20 +74,28 @@
           <h1 class="visually-hidden">КНОПКИ</h1>
           <div class="container">
             <ul class="filter-list">
-              <li class="btn">
-                <button class="button" type="button">Все</button>
+              <li class="filter-list__btn">
+                <button class="filter-list__button" type="button">Все</button>
               </li>
-              <li class="btn">
-                <button class="button" type="button">Веб-сайты</button>
+              <li class="filter-list__btn">
+                <button class="filter-list__button" type="button">
+                  Веб-сайты
+                </button>
               </li>
-              <li class="btn">
-                <button class="button" type="button">Приложения</button>
+              <li class="filter-list__btn">
+                <button class="filter-list__button" type="button">
+                  Приложения
+                </button>
               </li>
-              <li class="btn">
-                <button class="button" type="button">Дизайн</button>
+              <li class="filter-list__btn">
+                <button class="filter-list__button" type="button">
+                  Дизайн
+                </button>
               </li>
-              <li class="btn">
-                <button class="button" type="button">Маркетинг</button>
+              <li class="filter-list__btn">
+                <button class="filter-list__button" type="button">
+                  Маркетинг
+                </button>
               </li>
             </ul>
           </div>
@@ -311,71 +319,76 @@
       </section>
     </main>
     <!--підвал-->
-    <footer class="footer">
-      <div class="container-footer">
+    <footer class="page-footer">
+      <div class="page-footer__container">
         <div class="">
-          <a class="logo link address" href="./portfolio.html">
-            <span class="first">Web</span><span class="second">Studio</span>
+          <a class="logo link" href="./index.html">
+            <span class="logo__first">Web</span
+            ><span class="logo__second">Studio</span>
           </a>
-          <address class="address-list">
-            <p class="second">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="address list">
-              <li class="address-list-mail">
-                <a href="mailto:info@devstudio.com" class="third"
+          <address class="address">
+            <p class="address__text">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address-list">
+              <li class="address-list__mail">
+                <a href="mailto:info@devstudio.com" class="address-list__third"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="address-list-tel">
-                <a href="tel:+380961111111" class="third">+38 096 111 11 11</a>
+              <li class="address-list__tel">
+                <a href="tel:+380961111111" class="address-list__third"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
         </div>
-        <div class="social-networks">
-          <p class="join">присоединяйтесь</p>
-          <ul class="list network">
-            <li class="network-item">
-              <a href="" class="network-link">
-                <svg class="link-icon" width="20" height="20">
+        <div class="footer-social-networks">
+          <p class="footer-social-networks__join">присоединяйтесь</p>
+          <ul class="list footer-network">
+            <li class="footer-network__item">
+              <a href="" class="footer-network__link">
+                <svg class="footer-network__icon" width="20" height="20">
                   <use href="./images/symbol-defs.1.svg#icon-instagramop"></use>
                 </svg>
               </a>
             </li>
-            <li class="network-item">
-              <a href="" class="network-link">
-                <svg class="link-icon" width="20" height="20">
+            <li class="footer-network__item">
+              <a href="" class="footer-network__link"
+                ><svg class="footer-network__icon" width="20" height="20">
                   <use href="./images/symbol-defs.1.svg#icon-twitterop"></use>
                 </svg>
               </a>
             </li>
-            <li class="network-item">
-              <a href="" class="network-link">
-                <svg class="link-icon" width="20" height="20">
+            <li class="footer-network__item">
+              <a href="" class="footer-network__link">
+                <svg class="footer-network__icon" width="20" height="20">
                   <use href="./images/symbol-defs.1.svg#icon-facebookop"></use>
                 </svg>
               </a>
             </li>
-            <li class="network-item">
-              <a href="" class="network-link">
-                <svg class="link-icon" width="20" height="20">
+            <li class="footer-network__item">
+              <a href="" class="footer-network__link"
+                ><svg class="footer-network__icon" width="20" height="20">
                   <use href="./images/symbol-defs.1.svg#icon-linkedinop"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="subscription">
-          <p class="subscription-text">подпишитесь на рассылку</p>
-          <form class="form-subscription">
-            <label for="email"></label>
-            <input
-              class="subscription-email"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="E-mail"
-            />
-            <button class="subscription-btn" type="button">Подписаться</button>
+        <div class="footer-subscription">
+          <p class="footer-subscription__text">подпишитесь на рассылку</p>
+          <form class="footer-subscription__form">
+            <label for="email">
+              <input
+                class="footer-subscription__email"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+            /></label>
+            <button class="footer-subscription__btn" type="button">
+              Подписаться
+            </button>
           </form>
         </div>
       </div>

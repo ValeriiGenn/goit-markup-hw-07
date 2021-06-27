@@ -442,11 +442,11 @@ img {
   align-items: center;
   margin-bottom: 50px;
 }
-.btn:not(:last-child) {
+.filter-list__btn:not(:last-child) {
   margin-right: 8px;
 }
 
-.button {
+.filter-list__button {
   list-style: none;
   border-radius: 5px;
   padding: 6px 22px;
@@ -462,8 +462,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button:hover,
-.button:focus {
+.filter-list__button:hover,
+.filter-list__button:focus {
   background-color: var(--accent-color);
   box-shadow: 5px 5px 5px 5px var(--gray-color);
   color: var(--white-color);

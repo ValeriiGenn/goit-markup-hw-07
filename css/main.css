@@ -403,4 +403,52 @@ body {
   color: var(--black-color);
   font-family: Roboto, Raleway;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+  margin-left: auto;
+}
+
+.head-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  margin-right: 93px;
+  color: var(--black-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo__first {
+  color: var(--accent-color);
+  font-style: normal;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav__link {
+  display: flex;
+  text-decoration: none;
+  color: var(--button-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /*# sourceMappingURL=main.css.map */

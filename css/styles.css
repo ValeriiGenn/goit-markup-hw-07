@@ -1,21 +1,8 @@
 /*.page-header */
 
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
-}
 /*site nav*/
-
-.site-nav__link:hover,
-.site-nav__link:focus {
-  color: var(--accent-color);
-}
-.site-nav__link.current {
-  color: var(--accent-color);
-}
-.site-nav .current {
-  position: relative;
-  color: var(--accent-color);
+.site-nav__item:not(:last-child) {
+  margin-right: 50px;
 }
 .current::after {
   position: absolute;
@@ -28,17 +15,11 @@
   background-color: currentColor;
   bottom: -32px;
 }
-.auth-nav__item:not(:last-child) {
-  margin-right: 50px;
-}
-.site-nav__item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .auth-nav {
   display: flex;
   margin-left: auto;
 }
+
 .auth-nav__item {
   display: flex;
   justify-content: center;
@@ -46,10 +27,14 @@
   left: 30px;
 }
 
+.auth-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
 .auth-nav__link:hover,
 .auth-nav__link:focus {
   color: var(--accent-color);
 }
+
 .auth-nav__link {
   display: flex;
   align-items: center;
@@ -57,6 +42,7 @@
   color: var(--gray-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .auth-nav__icon {
   display: flex;
   justify-content: center;
@@ -74,6 +60,7 @@
   padding-bottom: 200px;
   background-color: var(--hero-color);
 }
+
 .overlay {
   max-width: 1600px;
   height: 600px;
@@ -103,6 +90,7 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .hero__link {
   display: inline-block;
   text-align: center;
@@ -116,19 +104,22 @@
   cursor: pointer;
   border-radius: 4px;
   padding: 10px 32px;
-} /*section*/
-
+}
+/*section*/
 .benefits {
   padding-top: 94px;
   padding-bottom: 47px;
 }
+
 .benefits-card {
   display: flex;
   flex-wrap: wrap;
 }
+
 .benefits-card__item:not(:last-child) {
   margin-right: 30px;
 }
+
 .benefits-card__item {
   flex-basis: calc((100% - 90px) / 4);
 }
@@ -140,6 +131,7 @@
   padding: 25px 100px;
   border-radius: 4px;
 }
+
 .benefits-card__title {
   margin-bottom: 10px;
   background-color: var(--white-color);
@@ -149,11 +141,13 @@
   letter-spacing: 0.03em;
   text-align: left;
 }
+
 .benefits-card__text {
   color: var(--gray-color);
   font-size: 14px;
   line-height: 1.7;
 }
+
 /*чим ми займаємося*/
 .directions {
   padding-top: 47px;

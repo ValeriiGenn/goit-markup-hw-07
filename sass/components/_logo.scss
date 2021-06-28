@@ -7,3 +7,7 @@
     font-size: 26px;
     line-height: 1.2;
 }
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}

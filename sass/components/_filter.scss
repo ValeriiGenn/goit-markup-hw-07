@@ -8,13 +8,9 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-}
-
-.filter-list__btn{&:not(:last-child) {
-    margin-right: 8px;
-}}
-
-.filter-list__button {
+    &__btn{&:not(:last-child) {
+    margin-right: 8px;}}
+    &__button {
     list-style: none;
     border-radius: 5px;
     padding: 6px 22px;
@@ -35,5 +31,8 @@
     color: var(--white-color);
 }
 }
+}
+
+
 
 

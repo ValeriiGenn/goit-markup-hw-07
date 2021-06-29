@@ -1,16 +1,12 @@
 .site-nav {
     display: flex;
-}
-.site-nav__item {
+    &__item {
     display: flex;
     justify-content: center;
     align-items: center;
     &:not(:last-child) {
-    margin-right: 50px;
-}
-}
-
-.site-nav__link {
+    margin-right: 50px;}}
+    &__link {
     display: flex;
     text-decoration: none;
     color: var(--button-text-color);
@@ -24,9 +20,8 @@
     color: var(--accent-color);
      }
     &.current {
-    color: var(--accent-color);
-}
-}
+    color: var(--accent-color);}}
+    }
 .current{
     &::after {
     position: absolute;

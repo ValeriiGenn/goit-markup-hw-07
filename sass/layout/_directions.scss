@@ -1,31 +1,24 @@
 .directions {
     padding-top: 47px;
     padding-bottom: 94px;
-}
-
-.directions__title {
+    &__title {
     color: var(--black-color);
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 50px;}
 }
 
 .direction-card {
     display: flex;
     flex-wrap: wrap;
-}
-
-.direction-card__item {
+    &__item {
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
     &:not(:last-child) {
-    margin-right: 30px;
-}
-}
-
-.direction-card__title {
+    margin-right: 30px;}}
+    &__title {
     padding-top: 27px;
     padding-bottom: 27px;
     font-style: normal;
@@ -33,11 +26,15 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--bgmodal-color);
-    background-color: var(--bgthumb-color);
-}
-
-.direction-card__content {
+    background-color: var(--bgthumb-color);}
+    &__content {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+}
+
+
+
+
+

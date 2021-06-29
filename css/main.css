@@ -595,7 +595,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-/*оверлей*/
 .portfolio-list__item-card-thumb {
   display: flex;
   position: relative;
@@ -607,6 +606,7 @@ body {
   opacity: 1;
 }
 
+/*оверлей*/
 .portfolio-list__item-card:hover .portfolio-list__item-content-hidden,
 .portfolio-list__item-card:focus .portfolio-list__item-content-hidden {
   transform: translateY(0);

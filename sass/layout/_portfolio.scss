@@ -43,28 +43,22 @@
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;}
-    
-
-}
-
-
-
-
-
-/*оверлей*/
-.portfolio-list__item-card-thumb {
+&__item-card-thumb {
     display: flex;
     position: relative;
     min-width: 100%;
     overflow: hidden;
+    &:hover {
+    opacity: 1;}
 }
 
-.portfolio-list__item-card-thumb:hover {
-    opacity: 1;
+
 }
 
-.portfolio-list__item-card:hover .portfolio-list__item-content-hidden,
-.portfolio-list__item-card:focus .portfolio-list__item-content-hidden {
+/*оверлей*/
+
+/*.portfolio-list__item-card .portfolio-list__item-content-hidden,*/
+&__item-card:hover,:focus .portfolio-list__item-content-hidden {
     transform: translateY(0);
 }
 

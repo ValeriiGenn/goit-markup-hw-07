@@ -17,13 +17,12 @@
     flex-wrap: wrap;
 }
 
-.direction-card__item:not(:last-child) {
-    margin-right: 30px;
-}
-
 .direction-card__item {
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
+    &:not(:last-child) {
+    margin-right: 30px;
+}
 }
 
 .direction-card__title {

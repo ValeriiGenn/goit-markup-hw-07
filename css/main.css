@@ -98,8 +98,7 @@ body {
   line-height: 1.2;
 }
 
-.logo:hover,
-.logo:focus {
+.logo:hover, .logo:focus {
   color: var(--accent-color);
 }
 
@@ -989,7 +988,6 @@ textarea {
 }
 
 .form__condition {
-  text-decoration: 5px solid var(--accent-color);
   margin-left: 7px;
   color: var(--accent-color);
 }

@@ -5,9 +5,8 @@
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.2;
-}
-.logo:hover,
-.logo:focus {
+    line-height: 1.2;&:hover,
+&:focus {
     color: var(--accent-color);
+}
 }

@@ -270,6 +270,14 @@ body {
   padding-bottom: 47px;
 }
 
+.benefits__icon {
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  border-radius: 4px;
+}
+
 .benefits-card {
   display: flex;
   flex-wrap: wrap;
@@ -281,14 +289,6 @@ body {
 
 .benefits-card__item:not(:last-child) {
   margin-right: 30px;
-}
-
-.benefits__icon {
-  height: 120px;
-  background-color: #f5f4fa;
-  margin-bottom: 30px;
-  padding: 25px 100px;
-  border-radius: 4px;
 }
 
 .benefits-card__title {

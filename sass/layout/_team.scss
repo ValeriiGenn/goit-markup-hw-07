@@ -20,15 +20,17 @@
     align-items: center;
     &__item{&:not(:last-child) {
     margin-right: 30px;}}
-}
-
-
-
-.team-card__item {
+    &__item {
     flex-basis: calc((100% - 90px) / 4);
     background-color: var(--white-color);
-    box-shadow: 10px 10px 10px 10px var(--gray-color);
+    box-shadow: 10px 10px 10px 10px var(--gray-color);}
+
+    
 }
+
+
+
+
 
 
 .container-team-list-item {

@@ -8,12 +8,11 @@
     flex-wrap: wrap;
 }
 
-.benefits-card__item:not(:last-child) {
-    margin-right: 30px;
-}
-
 .benefits-card__item {
     flex-basis: calc((100% - 90px) / 4);
+    &:not(:last-child) {
+    margin-right: 30px;
+}
 }
 
 .benefits__icon {

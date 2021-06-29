@@ -5,7 +5,11 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 94px;}
+.container-portfolio-list-item {
+    padding: 20px 24px;
+    border: 0 70px 322px 70px;
+    border: 1px solid var(--border-color);
 }
 
 .portfolio-list {
@@ -16,31 +20,20 @@
     margin-left: -30px;
     justify-content: center;
     align-items: center;
-}
-
-.container-portfolio-list-item {
-    padding: 20px 24px;
-    border: 0 70px 322px 70px;
-    border: 1px solid var(--border-color);
-}
-
-.portfolio-list__item {
+&__item {
     list-style: none;
     flex-basis: calc((100% -60px) / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
     display: list-item;
-    text-align: -webkit-match-parent;
-}
-
-.portfolio-list__item-card {
+    text-align: -webkit-match-parent;}
+&__item-card {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &:hover,&:focus {
+    box-shadow: 10px 10px 10px 10px var(--gray-color);}}
 
-.portfolio-list__item-card
-.portfolio-list__item-card{&:hover,&:focus {
-    box-shadow: 10px 10px 10px 10px var(--gray-color);
-}}
+
+}
 
 .portfolio-list__item-signature {
     color: var(--button-text-color);

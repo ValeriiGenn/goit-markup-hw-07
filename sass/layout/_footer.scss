@@ -6,89 +6,50 @@
     max-width: 1200px;
     margin: 0 auto;
     align-content: center;
-}
-
-.page-footer__container {
+    &__container {
     display: flex;
     align-items: baseline;
     padding-left: 15px;
-    padding-right: 15px;
-}
-
+    padding-right: 15px;}}
 .address-list {
     list-style: none;
     margin-top: 9px;
-}
-
-.address {
-    margin-top: 20px;
-    color: var(--white-color);
-    text-decoration: none;
-    font-style: normal;
-}
-
-.logo__second {
-    color: var(--white-color);
-    text-decoration: none;
-    font-style: normal;
-}
-
-.address__text {
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    text-align: left;
-}
-
-.address-list__third {
+    &__tel {
+    margin-top: 9px;}
+    &__third {
     color: var(--contact-color);
     text-decoration: none;
     font-style: normal;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
      &:focus {
-    color: var(--accent-color);
-}
-}
-
-
-
-.address-list__tel {
-    margin-top: 9px;
-}
+    color: var(--accent-color);}}}
+.address {
+    margin-top: 20px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-style: normal;
+    &__text {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-align: left;}}
+.logo__second {
+    color: var(--white-color);
+    text-decoration: none;
+    font-style: normal;}
 
 /*іконки соцмереж*/
 .footer-network {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.footer-social-networks {
-    margin: 0;
-    width: 206px;
-    margin-left: 70px;
-}
-
-.footer-social-networks__join {
-    margin-bottom: 20px;
-    align-content: center;
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.footer-network__item {
+&__item {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.footer-network__link {
+    align-items: center;}
+&__link {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -101,13 +62,23 @@
     color: var(--white-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus,&:hover {
-    background-color: var(--accent-color);
-}
-}
-
-.footer-network__icon {
-    fill: currentColor;
-}
+    background-color: var(--accent-color);}}
+    &__icon {
+    fill: currentColor;}}
+    
+.footer-social-networks {
+    margin: 0;
+    width: 206px;
+    margin-left: 70px;
+&__join {
+    margin-bottom: 20px;
+    align-content: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}}
 
 .footer-subscription {
     margin-left: 93px;
@@ -117,25 +88,19 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--footer-color);
-}
-
-.footer-subscription__text {
+&__text {
     align-content: center;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--white-color);
-}
-
-.footer-subscription__form {
+    color: var(--white-color);}
+&__form {
     display: flex;
     width: 570px;
-    height: 86px;
-}
-
-.footer-subscription__btn {
+    height: 86px;}
+&__btn {
     position: relative;
     margin-top: 20px;
     width: 200px;
@@ -161,10 +126,8 @@
     content: "";
     top: 13px;
     right: 28px;
-    fill: var(--white-color);
-}
-}
-.footer-subscription__email {
+    fill: var(--white-color);}}
+&__email {
     width: 358px;
     height: 50px;
     background-color: var(--footer-color);
@@ -174,5 +137,11 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     border-radius: 4px;
-    outline: none;
+    outline: none;}
 }
+
+
+
+
+
+

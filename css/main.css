@@ -368,6 +368,10 @@ body {
   margin-bottom: 50px;
 }
 
+.container-team-list-item {
+  padding: 30px 32px;
+}
+
 .team-card {
   display: flex;
   flex-wrap: wrap;
@@ -382,10 +386,6 @@ body {
   flex-basis: calc((100% - 90px) / 4);
   background-color: var(--white-color);
   box-shadow: 10px 10px 10px 10px var(--gray-color);
-}
-
-.container-team-list-item {
-  padding: 30px 32px;
 }
 
 .team-card__title {

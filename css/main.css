@@ -606,12 +606,6 @@ body {
   opacity: 1;
 }
 
-/*оверлей*/
-.portfolio-list__item-card:hover .portfolio-list__item-content-hidden,
-.portfolio-list__item-card:focus .portfolio-list__item-content-hidden {
-  transform: translateY(0);
-}
-
 .portfolio-list__item-content-hidden {
   position: absolute;
   width: 100%;
@@ -628,6 +622,12 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 1.556;
+}
+
+/*оверлей*/
+.portfolio-list__item-card:hover .portfolio-list__item-content-hidden,
+.portfolio-list__item-card:focus .portfolio-list__item-content-hidden {
+  transform: translateY(0);
 }
 
 .page-footer {

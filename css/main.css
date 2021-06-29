@@ -359,6 +359,15 @@ body {
   box-shadow: inset();
 }
 
+.team__title {
+  color: var(--black-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .team-card {
   display: flex;
   flex-wrap: wrap;
@@ -373,15 +382,6 @@ body {
   flex-basis: calc((100% - 90px) / 4);
   background-color: var(--white-color);
   box-shadow: 10px 10px 10px 10px var(--gray-color);
-}
-
-.team__title {
-  color: var(--black-color);
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
 }
 
 .container-team-list-item {

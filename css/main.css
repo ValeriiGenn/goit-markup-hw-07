@@ -237,7 +237,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero__link {
+.hero__button {
   display: inline-block;
   text-align: center;
   background-color: var(--accent-color);
@@ -252,6 +252,10 @@ body {
   padding: 10px 32px;
 }
 
+.hero__container {
+  text-align: center;
+}
+
 .overlay {
   max-width: 1600px;
   height: 600px;
@@ -261,10 +265,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background: cover;
-}
-
-.hero-container {
-  text-align: center;
 }
 
 .benefits {

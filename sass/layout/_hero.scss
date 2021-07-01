@@ -28,9 +28,9 @@
     padding: 10px 32px;}
 &__container { text-align: center;}
 
-}
 
-.overlay {
+
+&--overlay {
     max-width: 1600px;
     height: 600px;
     margin: 0 auto;
@@ -42,7 +42,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background: cover;}
-
+}
 
 
 

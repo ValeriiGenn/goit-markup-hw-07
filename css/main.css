@@ -330,21 +330,21 @@ body {
   margin-bottom: 50px;
 }
 
-.direction-card {
+.directions__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.direction-card__item {
+.directions__item {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
 }
 
-.direction-card__item:not(:last-child) {
+.directions__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.direction-card__title {
+.directions__name {
   padding-top: 27px;
   padding-bottom: 27px;
   font-style: normal;
@@ -355,7 +355,7 @@ body {
   background-color: var(--bgthumb-color);
 }
 
-.direction-card__content {
+.directions__content {
   position: absolute;
   bottom: 0;
   width: 100%;

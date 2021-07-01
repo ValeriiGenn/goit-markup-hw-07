@@ -448,9 +448,6 @@ body {
 }
 
 .social__item {
-  /*display: flex;
-    justify-content: center;
-    align-items: center;*/
   width: 44px;
   height: 44px;
 }
@@ -464,7 +461,7 @@ body {
   fill: currentColor;
 }
 
-.customers {
+.customer {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -474,7 +471,7 @@ body {
   padding-bottom: 94px;
 }
 
-.customers__title {
+.customer__title {
   text-align: center;
   margin: 0 0 50px 0;
   font-size: 36px;
@@ -482,7 +479,7 @@ body {
   letter-spacing: 00.03em;
 }
 
-.customer {
+.customer__list {
   list-style: none;
   display: flex;
   justify-content: space-between;
